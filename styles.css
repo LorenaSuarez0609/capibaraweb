@@ -1,0 +1,157 @@
+
+*{
+    font-family: "Playwrite DK Loopet", cursive;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+body{
+    background-color: coral;
+    margin: 0;
+    padding: 0;
+}
+/*Estilos del header*/
+.banner{
+    margin: 10px;
+    background-color: rgb(161, 86, 231);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    text-align: center;
+    
+}
+.logocapi {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 60px;
+    margin: 15px;
+}
+/*Estilos barra de navegacion*/
+.nav-menu{
+    padding: 10px;
+    margin: 10px;
+    color:azure;
+    background-color: rgb(235, 20, 95);
+    margin-top: 10px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    ul{
+        list-style: none;
+        padding: 0;
+        text-align: center;
+        li{
+            display: inline-block;
+            margin: 0 10px;
+            a{
+                color: white;
+                text-decoration: none;
+                font-weight: bold;
+            }
+        }
+
+    }
+
+}
+/*Estilos del Main*/
+main{
+    padding: 10px;
+    text-align: center;
+}
+/*estilos por section*/
+/*Inicio*/
+.section-inicio{
+    display: inline-block;  
+}
+.img-inicio{
+        width: 60vw;
+        border-radius: 35px;
+}
+/*Entretenimiento*/
+.section-entretenimiento{
+    padding: 10px;
+}
+.entretenimiento-contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.entretenimiento-contenedor img{
+    width: 30vw;
+}
+.producto {
+    text-align: center;
+    margin: 10px;
+}
+/*Estilos para la seccion de Videos*/
+.seccion-videos{
+    padding: 10px;
+}
+.video-contenedor{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+
+
+/* Estilo para la sección de reseñas usando Grid */
+.section-reseñas{
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 20px;
+
+}
+.reseñas-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(50vw, 1fr));
+    gap: 20px;
+}
+
+.card {
+    padding: 20px;
+    background-color: white;
+    border: 5px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+/* Estilo para el formulario de contacto */
+.section-contacto{
+    margin-top: 10px;
+    padding:20px;
+    background-color: rgb(234, 163, 101); 
+    border-radius: 20px;
+    text-align: left;
+    
+}
+
+.formulario-contacto {
+    display: grid;
+    gap: 10px;
+    border-radius: 35px;
+    width: 100%;
+    padding-bottom: 10px;
+}
+.formulario-contacto input, .formulario-contacto textarea{
+    border-radius: 4px;
+}
+
+.button-submit {
+    background-color:rgb(24, 149, 153);
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    padding: 20px 20px;
+}
+/* Estilo para el footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

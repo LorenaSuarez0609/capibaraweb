@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Capibara capibara capibara ....</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playwrite+DK+Loopet:wght@100..400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img class= "logocapi" src="./img/capihada.png" alt="capibara hadita">
+            <h1>Capibara... capibara... capibara...</h1>
+        </div>
+        <nav class="nav-menu">
+      
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#entretenimiento">Juegos</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="#reseñas">Reseñas</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>     
+        </nav>
+        <audio src="./audio/videoplayback.mp3" autoplay></audio>
+    </header>
+    <main>
+        <!-- Sección de inicio con imagen -->
+        <section class="section-inicio" id="inicio">
+            <h2>Bienvenidos a nuestro sitio de entretenimiento</h2>
+            <img class="img-inicio" src="./img/varioscapi3.jpg" alt="capibaras divirtiendose y dandote la bienvenida">
+            <p>Explora nuestros juegos</p>
+        </section>
+
+        <!-- Sección de Entretenimientos -->
+        <section class="section-entretenimiento"id="entretenimiento">
+            <h2>Juegos</h2>
+            <div class="entretenimiento-contenedor">
+                <div class="producto">
+                    <img src="./img/laberinto.jpg" alt="Producto 1">
+                    <p>Laberinto</p>
+                </div>
+                <div class="producto">
+                    <img src="./img/abecedario.jpg" alt="Producto 2">
+                    <p>Abecedario</p>
+                </div>
+                <div class="producto">
+                    <img src="./img/tateticapi.jpg" alt="Producto 3">
+                    <p>Tateti</p>
+                </div>
+            </div>
+        </section>
+        <!--Seccion de videos divertidos-->
+        <seccion class="seccion-videos" id="videos">
+            <h2>Videos Divertidos</h2>
+                <div class="video-contenedor">
+                    <div class="film">
+                        <iframe 
+                            width="400" 
+                            height="250" 
+                            src="https://www.youtube.com/embed/tPfTqqxLwzc?si=MNG47SjSZB3D_hBw" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                        <p>Cancion</p>
+                    </div>
+                    <div class="film">
+                        <iframe 
+                            width="400" 
+                            height="250" 
+                            src="https://www.youtube.com/embed/r_lcg1G9278?si=X1XcEsvhu36vnDOU" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                        <p>Cuento</p>
+                    </div>
+                    <div class="film">
+                        <iframe 
+                            width="400" 
+                            height="250"
+                            src="https://www.youtube.com/embed/dYtkv-jUGK8?si=7E77dcmSkpFyt3JN" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                        <p>Curiosidades</p>
+                    </div>
+                    <div class="film">
+                        <iframe 
+                           width="400" 
+                            height="250"
+                            src="https://www.youtube.com/embed/-3mpphUPQrA?si=YqIV4Rnp1t-TKy5V" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                        <p>Cancion</p>
+                    </div>
+                    
+                </div>
+        </seccion>
+        <!-- Sección de reseñas con Grid -->
+        <section class="section-reseñas" id="reseñas">
+            <h2>Reseñas</h2>
+                <div class="reseñas-container">
+                    <div class="card">
+                        <p>Laura de Recoleta: A mi hijo le encantan los videos</p>
+                    </div>
+                    <div class="card">
+                        <p>Daniela de Bariloche: Nos encantan los cuentos</p>
+                    </div>
+                    <div class="card">
+                        <p>Roberto de Moron: Bailamos con las canciones y nos divertimos con las actividades</p>
+                    </div>
+                </div>
+        </section>
+        
+        <!-- Sección de contacto con formulario -->
+        <section class="section-contacto" id="contacto">
+            <h2>Contacto</h2>
+            <form class="formulario-contacto" action="link_forms_pre" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="ciudad">Ciudad:</label>
+                <input type="text" id="ciudad" name="ciudad" required>
+
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" id="correo" name="correo" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" required></textarea>
+
+                <button class="button-submit" type="submit">Enviar</button>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <p>&copy; 2025 Lorena Suarez</p>
+        
+    </footer>
+</body>
+</html>
