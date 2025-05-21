@@ -103,8 +103,8 @@ main{
     flex-wrap: wrap;
 }
 .film iframe{
- 
-    border-radius: 30px ;
+    border-radius: 25px ;
+    width: 95%;
 }
 
 
