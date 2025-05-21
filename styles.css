@@ -74,7 +74,10 @@ main{
 }
 /*Entretenimiento*/
 .section-entretenimiento{
+    gap: 10px;
     padding: 10px;
+    background-color: rgb(238, 123, 23); 
+    border-radius: 20px;
 }
 .entretenimiento-contenedor{
     display: flex;
@@ -83,19 +86,24 @@ main{
     
 }
 .entretenimiento-contenedor img{
-    width: 30vw;
+    width: 20vw;
     margin: 10px;
     border-radius:15px;
 }
 .producto {
     text-align: center;
     margin: 10px;
-    border: 2px solid rgba(247, 119, 15, 0.914);
+    border: 2px solid rgba(15, 43, 200, 0.914);
     border-radius: 25px 25px 25px;
 }
 /*Estilos para la seccion de Videos*/
-.seccion-videos{
+.section-videos{
+    margin-top: 10px;
+    gap: 10px;
     padding: 10px;
+    background-color: rgb(238, 98, 23); 
+    border-radius: 20px;
+   
 }
 .video-contenedor{
     display: flex;
@@ -110,6 +118,7 @@ main{
 
 /* Estilo para la sección de reseñas usando Grid */
 .section-reseñas{
+    margin-top: 10px;
     padding: 20px;
     background-color: #f4f4f4;
     border-radius: 20px;
