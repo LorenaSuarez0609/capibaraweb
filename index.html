@@ -14,15 +14,12 @@
     />
 </head>
 <body>
-    <audio ref="videoplayback" src="/audio/videoplayback.mp3" autoplay></audio>
     <header>
         <div class="banner">
             <img class= "logocapi" src="./img/capihada.png" alt="capibara hadita">
             <h1 class="animate__animated animate__bounce">Capibara... capibara... capibara...</h1>
         </div>
-        
-        <nav class="nav-menu">
-      
+        <nav class="nav-menu">    
                 <ul>
                     <li><a href="#inicio">Inicio</a></li>
                     <li><a href="#entretenimiento">Juegos</a></li>
@@ -31,14 +28,18 @@
                     <li><a href="#contacto">Contacto</a></li>
                 </ul>     
         </nav>
-        
+        <!--Musica de Fondo de la pagina-->
+       
     </header>
     <main>
         <!-- Sección de inicio con imagen -->
         <section class="section-inicio" id="inicio">
-            <h2>Bienvenidos a nuestro sitio de entretenimiento</h2>
+            <h2>Bienvenidos a nuestro sitio de entretenimiento</h2>         
             <img class="img-inicio" src="./img/varioscapi3.jpg" alt="capibaras divirtiendose y dandote la bienvenida">
             <p>Explora nuestros juegos</p>
+            <div class="sonido">
+                <audio ref="videoplayback" src="/audio/videoplayback.mp3" autoplay controls></audio>
+            </div>
         </section>
 
         <!-- Sección de Entretenimientos -->
