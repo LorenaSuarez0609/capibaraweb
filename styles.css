@@ -56,7 +56,7 @@ body{
 }
 .sonido{
     margin-left: 10px;
-    background-color: rgba(255, 127, 80, 0.773);
+    
 }
 /*Estilos del Main*/
 main{
@@ -137,6 +137,9 @@ main{
     text-align: left;
     
 }
+.section-contacto h2{
+     text-align: center;
+}
 
 .formulario-contacto {
     display: grid;
@@ -168,8 +171,42 @@ footer {
     width: 100%;
 }
 
+/*Medias Querrys*/
+
 @media screen and (max-width: 400px) {
   body {
-    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
   }
+  h1{
+    font-size: 20px;
+  }
+ .nav-menu ul li{
+    font-size: 10px;
+
+ }
+h2{
+    font-size: 18px;
+}
+h3{
+    font-size: 15px;
+}
+.producto p{
+    font-size: 12px;
+}
+.film p{
+    font-size: 12px;
+}
+.card p{
+    font-size: 12px;
+}
+.section-contacto label{
+    font-size: 12px; 
+}
+.button-submit {
+   font-size: 12px;
+}
+footer {
+    font-size: 15px;
+}
 }
