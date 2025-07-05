@@ -193,6 +193,7 @@ footer {
     justify-content: space-between;
     margin-left: 2rem;
     margin-right: 2rem;
+    
 }
 .redes{
     display: flex;
@@ -214,6 +215,129 @@ footer {
     background-color: var(--celeste);
     color:var(--azul);
 }
+/*Tienda e-commerce*/
+
+.tienda-e-commerce, .layout{
+    margin-top: 10px;
+    padding:20px;
+    background-color: rgb(232, 118, 25); 
+    border-radius: 20px;
+    text-align: center;
+}
+
+.navegacion-tienda{
+    margin-top: .5rem;
+}
+
+.navegacion-tienda ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    padding: 0;
+    margin: .5rem 0 0;
+
+}
+
+.navegacion-tienda li{
+    display: inline-block;
+    padding: .5rem 1rem;
+    background-color: #eaeaea;
+    border-radius: .5rem;
+}
+
+.navegacion-tienda a{
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+#contenedor-productos h2{
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+#contenedor-productos,
+#contenedor-carrito{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.tarjeta-producto,
+.producto-carrito{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    width: 25%;
+    text-align: center;
+    border: 1px solid #ccc;
+    height: auto;
+    border-radius: 15px;
+}
+
+.tarjeta-producto img,
+.producto-carrito img{
+    height: 140px;
+    object-fit: contain;
+    margin-bottom: .5rem;
+    
+}
+
+button{
+    margin-top: 10px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    color: rgb(66, 63, 63);
+    border: none;
+    
+}
+
+.mensaje-carrito{
+    padding: 2rem;
+}
+
+#acciones-carrito{
+    flex-basis: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem;
+}
+#resumen-carrito{
+    margin: 30px auto;
+    width: 300px;
+    background-color: #eaeaea;
+    padding: 5px;
+}
+
+#resumen-carrito p{
+    padding: 5px;
+    font-size: 1.3rem;
+}
+
+#resumen-carrito button{
+    font-size: 1rem;
+    background-color: cornsilk;
+}
+
+/*Carrito*/
+
+.carrito h1{
+    padding: 10px;
+    text-align: center;
+}
+.carrito{
+    min-height: 85vh;
+}
+
 
 /*Medias Querrys*/
 

@@ -27,3 +27,7 @@ En esta seccion podras ver los comentarios que dejan nuestros usuarios sobre nue
 
 En esta seccion podras dejarnos tus datos como Nombre, Ciudad, Correo Electronico y un Mensaje. 
 Nos encantaria que nos cuenten que les parecio y en que podemos mejorar. 
+
+## Tienda 
+
+En esta seccion podras realizar algunas compras, nos ayudaria mucho tu aporte para seguir creciendo. 
